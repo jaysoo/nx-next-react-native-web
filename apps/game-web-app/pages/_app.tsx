@@ -1,18 +1,14 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import './styles.css';
+import React from 'react'
+import '../styles/globals.css'
+import type { AppProps } from 'next/app'
+import { NativeBaseProvider } from 'native-base'
 
-function CustomApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <Head>
-        <title>Welcome to game-web-app!</title>
-      </Head>
-      <main className="app">
-        <Component {...pageProps} />
-      </main>
-    </>
-  );
+    <NativeBaseProvider isSSR>
+      <Component {...pageProps} />
+    </NativeBaseProvider>
+  )
 }
 
-export default CustomApp;
+export default MyApp
