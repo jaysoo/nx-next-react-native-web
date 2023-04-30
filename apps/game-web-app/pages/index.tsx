@@ -16,8 +16,11 @@ import {
   Button,
   AspectRatio,
 } from 'native-base'
+import { Button as NbButton } from '@frontend/react-native-library'
 
 export default function App() {
+  console.log('NbButton : ', NbButton)
+
   return (
     <Center
       flex={1}
