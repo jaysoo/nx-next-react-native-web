@@ -102,3 +102,6 @@ buck-out/
 
 
 apps/game-app-e2e/artifacts
+
+# Next.js
+.next
