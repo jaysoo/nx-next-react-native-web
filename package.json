@@ -25,7 +25,7 @@
   "devDependencies": {
     "@babel/preset-react": "^7.14.5",
     "@native-base/next-adapter": "^1.1.9",
-    "@nrwl/js": "16.0.1",
+    "@nx/js": "16.0.1",
     "@nx/cypress": "16.0.1",
     "@nx/detox": "16.0.1",
     "@nx/eslint-plugin": "16.0.1",
