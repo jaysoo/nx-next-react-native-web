@@ -15,11 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@frontend/next-library": ["libs/next-library/src/index.ts"],
-      "@frontend/next-library/server": ["libs/next-library/src/server.ts"],
-      "@frontend/react-native-library": [
-        "libs/react-native-library/src/index.ts"
-      ]
+      "@frontend/next-library": ["packages/next-library/src/index.ts"],
+      "@frontend/next-library/server": ["packages/next-library/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

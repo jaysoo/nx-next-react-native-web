@@ -9,12 +9,12 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "root": "apps/game-web-app",
-        "outputPath": "dist/apps/game-web-app"
+        "root": "packages/game-web-app",
+        "outputPath": "dist/packages/game-web-app"
       },
       "configurations": {
         "development": {
-          "outputPath": "apps/game-web-app"
+          "outputPath": "packages/game-web-app"
         },
         "production": {}
       }
@@ -47,7 +47,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/game-web-app/jest.config.ts",
+        "jestConfig": "packages/game-web-app/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
@@ -61,7 +61,7 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/game-web-app/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["packages/game-web-app/**/*.{ts,tsx,js,jsx}"]
       }
     }
   },

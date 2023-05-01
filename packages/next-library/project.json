@@ -1,0 +1,10 @@
+{
+  "name": "next-library",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/next-library/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+
+  }
+}
